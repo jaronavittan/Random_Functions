@@ -1,0 +1,57 @@
+// continue statements can cause iteration on continued iteration if made correctly
+
+while ($t < 10) {
+    $t++;
+    if ($t = 5) {
+        echo "You've reached the middle point.";
+        continue;
+    }
+}
+
+
+# continued and breaks can be used hand in hand.
+
+#THIS IS THE BEGINNING OF FUNCTIONS AND THEIR ITERATIONS / VARIANCES. THIS'LL BE LONG.
+
+function addThese(int $f, int $re) {
+    return $f + $re;
+}
+
+echo addThese(5,123);
+
+// more
+
+function writeMsg() {
+    echo "Cooter";
+  }
+  
+  writeMsg();
+
+  // more
+
+function greatHouses($house, $area) {
+    echo "House $house. Located in the $area. <br>";
+}  
+
+greatHouses("Stark", "North");
+
+// more
+
+function greaterHouses($houshes = 7) {
+    echo "the height is montey python: $houshes <br>";
+}
+
+greaterHouses(45);
+
+#moremoremore
+
+function cube($numnum) {
+    return $numnum * $numnum * $numnum;
+}
+
+
+function crass(int $cas, int $mas) : int {
+    return $cas + $mas;
+}
+
+
